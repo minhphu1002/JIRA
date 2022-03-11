@@ -1,0 +1,27 @@
+// Login
+export const USLOGIN = "USLOGIN";
+export const USER_SIGNIN_API = "USER_SIGNIN_API";
+
+export const USER_SIGNUP_API = "USER_SIGNUP_API";
+export const USER_SIGNUP = "USER_SIGNUP";
+
+export const GET_LIST_USER = "GET_LIST_USER";
+export const GET_LIST_USER_SAGA = "GET_LIST_USER_SAGA";
+
+export const EDIT_USER = "EDIT_USER";
+export const EDIT_USER_SAGA = "EDIT_USER_SAGA";
+export const DELETE_USER_SAGA = "DELETE_USER_SAGA";
+
+// Category
+export const GET_CATEGORY = "GET_CATEGORY";
+export const GET_ALL_PROJECT_CATEGORY_SAGA = "GET_ALL_PROJECT_CATEGORY_SAGA";
+
+// Project
+export const CREATE_PROJECT = "CREATE_PROJECT";
+export const GET_LIST_TASK = "GET_LIST_TASK";
+export const GET_LIST_TASK_SAGA = "GET_LIST_TASK_SAGA";
+export const EDIT_PROJECT = "EDIT_PROJECT";
+export const DELETE_PROJECT = "DELETE_PROJECT";
+
+export const GET_PROJECT_DETAIL_SAGA = "GET_PROJECT_DETAIL_SAGA";
+export const GET_PROJECT_DETAIL = "GET_PROJECT_DETAIL";
